@@ -1,0 +1,93 @@
+
+
+
+@media (max-width: 480px) {
+
+
+
+
+.feed-form {
+    &_mobile {
+        margin: 0 auto;
+        width: 250px;
+    input {
+        height: 40px;
+        }
+    }
+}
+
+
+.feed-form {
+    &_mobile {
+        margin: 0 auto;
+        width: 250px;
+        input {
+            height: 40px;
+        }
+    }
+    &_mini {
+        width: 230px;
+        input {
+            height: 30px;
+            font-size: 12px;
+        }
+    }
+}
+
+.work {
+    padding: 10px;
+    &__item {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 1px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    }
+
+
+
+.button {
+    &_main {
+        width: 230px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 80px;
+        }
+    &_mobile {
+        margin-top: 3px;
+        margin-right: 7px;
+        width: 100px;
+        height: 15px;
+        font-size: 8px;
+        }
+    &_submit {
+        width: 250px;
+        margin-top: 20px;
+        }
+    &_modal {
+        width: 230px;
+        height: 30px;
+        font-size: 10px;
+    }
+    }
+.title {
+    font-size: 18px;
+}
+
+}
+
+
+   
+    
+    
+    
+    
+
