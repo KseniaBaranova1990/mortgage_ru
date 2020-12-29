@@ -2,6 +2,7 @@
     min-height: 750px;
     padding: 21px 0 93px 0;
     background: url(../img/background1.jpg) center (center/cover) no-repeat;
+    filter: brightness(85%);
     &__wrapper {
         display: flex;
         flex-direction: column;
