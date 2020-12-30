@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +23,12 @@
     }
     &__phone {
         display: block;
-        color: #000000;
-        font-size: 20px;
+        color: #000;
+        font-size: 18px;
         font-weight: 700;
         text-decoration: none;
         &:hover {
-            color: #fff;
+            color: #efc508;
         }
     }
     &__contacts {

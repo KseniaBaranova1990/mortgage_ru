@@ -1,8 +1,7 @@
 .promo {
     min-height: 750px;
-    padding: 21px 0 93px 0;
-    background: url(../img/background1.jpg) center (center/cover) no-repeat;
-    filter: brightness(85%);
+    padding-bottom: 93px;
+    background: url(../img/background.jpg) center/cover no-repeat;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -18,7 +17,7 @@
     }
     &__subheader {
         margin-top: 17px;
-        color: $main-color;
+        color: #9e8206;
         
         font-size: 24px;
         font-weight: 700;

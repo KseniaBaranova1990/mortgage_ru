@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: http://keter-finance.com/sitemap.xml

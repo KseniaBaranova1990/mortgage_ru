@@ -1,23 +1,27 @@
 .hamburger {
     position: absolute;
-    top: 20px;
-    left: 30px;
-    height: 21px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    top: 10px;
+    left: 20px;
+    background: #9e8206;
+    border-radius: 50%;
+    color: #fff;
+    height: 50px;
+    position: relative;
+    width: 50px;
     cursor: pointer;
-    span {
-        display: block;
-        width: 30px;
-        height: 3px;
-        background: #151812;
-    }
-    span.long {
-        width: 36px;
-    }
-}
+  }
+  
+  .hamburger-icon {
+    fill: currentColor;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    stroke: currentColor;
+    stroke-width: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
         
 .menu {
     position: fixed;
@@ -41,7 +45,7 @@
         width: 345px;
         padding-top: 140px;
         padding-left: 40px;
-        background-color: $main-color;
+        background-color: #9e8206;
         height: 100%;
     }
     &__close {
